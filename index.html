@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Eleganza | Shop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Eleganza</h1>
+    <nav>
+      <a href="index.html">Shop</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+  <main>
+    <aside class="filters">
+      <h2>Filter by</h2>
+      <div>
+        <h3>Category</h3>
+        <label><input type="checkbox" value="Dogs" class="category-filter"> Dogs</label><br>
+        <label><input type="checkbox" value="Cats" class="category-filter"> Cats</label><br>
+        <label><input type="checkbox" value="Birds" class="category-filter"> Birds</label>
+      </div>
+      <div>
+        <h3>Brand</h3>
+        <label><input type="checkbox" value="BrandA" class="brand-filter"> BrandA</label><br>
+        <label><input type="checkbox" value="BrandB" class="brand-filter"> BrandB</label>
+      </div>
+    </aside>
+    <section class="product-list" id="product-list">
+      <!-- Products will be inserted here dynamically -->
+    </section>
+  </main>
+  <script src="products.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
